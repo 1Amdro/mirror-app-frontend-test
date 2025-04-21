@@ -1,0 +1,75 @@
+.container {
+  width: 100%;
+  padding: 10px;
+  height: 100vh;
+  overflow: auto;
+}
+
+.grid_list {
+  display: grid;
+  gap: 10px;
+}
+
+.grid_item {
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 8px;
+  display: grid;
+  margin-bottom: 5px;
+}
+
+.card,
+.card_hover {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background-color: aliceblue;
+  margin: 5px 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.grid_item .card {
+  display: grid;
+  grid-template-rows: 100px 1fr 20px;
+}
+
+.grid_item .card_hover {
+  display: grid;
+  grid-template-rows: 1fr 0.1fr 0.1fr;
+}
+
+.masonry {
+  column-gap: 10px;
+}
+
+.masonry_item {
+  background-color: aliceblue;
+  margin-bottom: 10px;
+  break-inside: avoid;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.nav_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.load_more_btn {
+  background-color: #4576e0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.load_more_btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

@@ -1,0 +1,46 @@
+.nav_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.page_button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #e3e3e3;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  min-width: 36px;
+}
+
+.page_button_active {
+  background-color: #4679bd;
+  color: white;
+}
+
+.page_dots {
+  padding: 8px 10px;
+  font-weight: bold;
+  color: #999;
+  user-select: none;
+}
+
+.page_dots_button {
+  background: none;
+  border: none;
+  color: #777;
+  cursor: pointer;
+  padding: 8px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.page_dots_button:hover {
+  color: #333;
+}

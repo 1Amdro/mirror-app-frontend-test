@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 220px;
+  height: 100%;
+  align-items: center;
+  padding: 10px 10px;
+  color: #ffffff;
+  background-color: #25221fd9;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  background-color: #201616;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.input {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.input::placeholder {
+  color: #ffffff;
+  padding-left: 2px;
+}
+
+.input:disabled {
+  background-color: #575f67f9;
+}
