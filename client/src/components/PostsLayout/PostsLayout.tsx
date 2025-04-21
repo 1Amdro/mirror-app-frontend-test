@@ -3,23 +3,8 @@ import styles from "./PostsLayout.module.css";
 import PostCard from "../PostCard/PostCard";
 import { Settings } from "../../types/settingsInterface";
 import Pagination from "../Pagination/Pagination";
+import { PostI } from "../../types/postInterface";
 
-type UserT = {
-  id: string;
-  username: string;
-  postId: string;
-};
-
-export interface PostI {
-  userId: number;
-  id: string;
-  caption: string;
-  comments: number;
-  date: string;
-  permalink: string;
-  user: UserT;
-  likes: number;
-}
 
 export default function PostsLayout({
   propLayoutSettings,

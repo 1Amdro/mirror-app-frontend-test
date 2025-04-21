@@ -1,4 +1,4 @@
-import { PostI } from "../PostsLayout/PostsLayout";
+import { PostI } from "../../types/postInterface";
 import styles from "./PostCard.module.css";
 
 export default function PostCard({
